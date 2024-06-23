@@ -1,0 +1,111 @@
+/* CSS */
+head {
+    height: 0px;
+    margin:0;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
+
+
+body {
+    font-family: interVariable;
+    text-align: center;
+    background-color: #000000;
+    margin: 0;
+    padding: 0px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 80px;
+    margin:0;
+  }
+  
+  #status {
+    margin: 20px 0;
+    font-weight: 900;
+    font-size: 80px;
+  }
+  
+  #status img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+
+  #status-message {
+    color: white;
+  }
+
+  #top-section {
+        background: linear-gradient(to right, #721600, #270101);
+        padding: 30px;
+
+  }
+  
+  #controls {
+    margin: 20px 0;
+  }
+  
+  #controls label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  #controls input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #controls button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #controls button:hover {
+    background-color: #0056b3;
+  }
+
+  p {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  h2 {
+    margin-top: 100px;
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+
+  /* updated styles for monthly count */
+  
+  #monthly-count {
+    margin-top: 20px;
+    font-size: 70px;
+    color: rgb(255, 255, 255); /* Change text color for the monthly count */
+    font-weight: 800;
+  }
+
+  a {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+  }
+  
